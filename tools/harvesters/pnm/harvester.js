@@ -834,7 +834,8 @@ export async function runHarvest(cliArgs = process.argv.slice(2)) {
       const { execSync } = await import('child_process');
       try {
         console.log(`\n[Step 1/2] Validating inbox...`);
-        execSync(`npm run validate-inbox -- "${inboxDir}"`, { cwd: repoRoot, stdio: 'inherit' });
+        const validateFlags = (options.mode === 'incremental' || options.maxPages > 0) ? ' --allow-partial --skip-drop-gate' : '';
+        execSync(`npm run validate-inbox -- "${inboxDir}" ${validateFlags}`, { cwd: repoRoot, stdio: 'inherit' });
 
         console.log(`\n[Step 2/2] Merging & deduplicating records into PNM catalog...`);
         execSync(`npm run merge -- "${inboxDir}"`, { cwd: repoRoot, stdio: 'inherit' });
