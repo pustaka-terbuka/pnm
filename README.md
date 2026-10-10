@@ -58,6 +58,7 @@ The PNM collection was harvested via the official PNM OpenSearch catalog interfa
 Harvester configuration and scripts:
 - `harvest/` — Harvesting scripts and configuration
 - `tools/harvesters/pnm/` — OpenSearch crawler and MARCXML converter
+- `docs/HARVESTER.md` — Institution runbook and execution commands
 - `docs/HARVESTERS.md` — Ingestion standards and tag preservation contracts
 - `docs/HARVESTER_CHUNK_LIFECYCLE.md` — Batch harvest lifecycle documentation
 
