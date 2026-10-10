@@ -8,7 +8,8 @@
     "validate-inbox": "node tools/validate-inbox.js",
     "merge": "node tools/merge.js",
     "validate-holdings": "node tools/validate-holdings.js",
-    "build": "node tools/build.js",
+    "harvest": "node tools/harvesters/pnm/harvester.js",
+    "harvest:incremental": "node tools/harvesters/pnm/harvester.js --mode incremental",
     "harvest:pnm": "node tools/harvesters/pnm/harvester.js"
   },
   "engines": {

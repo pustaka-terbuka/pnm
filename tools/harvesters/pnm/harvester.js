@@ -26,7 +26,7 @@ const SOURCE_NAME = 'Perpustakaan Negara Malaysia';
 const SOURCE_BASE_URL = 'https://opac.pnm.gov.my/';
 const TERMS_URL = 'https://www.pnm.gov.my/';
 const BASE_API_URL = 'https://ap.iiivega.com/api/search-result/search/format-groups';
-const USER_AGENT = 'PustakaTerbuka Harvester (+https://github.com/aplikasi-perpustakaan/pustaka-terbuka)';
+const USER_AGENT = 'PustakaTerbuka Harvester (+https://github.com/pustaka-terbuka/pnm)';
 const HARVESTER_NAME = 'pnm-vega-scraper-node';
 const HARVESTER_VERSION = '1.0.0';
 
@@ -833,17 +833,15 @@ export async function runHarvest(cliArgs = process.argv.slice(2)) {
 
       const { execSync } = await import('child_process');
       try {
-        console.log(`\n[Step 1/3] Validating inbox...`);
+        console.log(`\n[Step 1/2] Validating inbox...`);
         execSync(`npm run validate-inbox -- "${inboxDir}"`, { cwd: repoRoot, stdio: 'inherit' });
 
-        console.log(`\n[Step 2/3] Merging & deduplicating records into catalog...`);
+        console.log(`\n[Step 2/2] Merging & deduplicating records into PNM catalog...`);
         execSync(`npm run merge -- "${inboxDir}"`, { cwd: repoRoot, stdio: 'inherit' });
 
-        console.log(`\n[Step 3/3] Building static OPAC and search index...`);
-        execSync(`npm run build`, { cwd: repoRoot, stdio: 'inherit' });
-
         console.log(`\n================================================`);
-        console.log(` Pipeline Completed: Catalog Updated & Built! `);
+        console.log(` Pipeline Completed: PNM Catalog Updated Successfully! `);
+        console.log(` Ready for PustakaTerbuka Master ingestion & build. `);
         console.log(`================================================\n`);
       } catch (err) {
         console.error(`\n[ERROR] Pipeline step failed: ${err.message}`);

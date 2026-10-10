@@ -1,0 +1,97 @@
+name: Scheduled Harvest & Catalog Sync
+
+on:
+  schedule:
+    # Run every Sunday at 18:00 UTC (Monday 02:00 MYT)
+    - cron: '0 18 * * 0'
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: 'Harvest mode'
+        required: true
+        default: 'incremental'
+        type: choice
+        options:
+          - incremental
+          - full
+      max_pages:
+        description: 'Maximum pages to fetch (0 for all)'
+        required: false
+        default: '50'
+      delay_ms:
+        description: 'Politeness delay in ms between requests'
+        required: false
+        default: '2000'
+      date_from:
+        description: 'Filter records from publication year (optional, e.g. 2026)'
+        required: false
+        default: ''
+
+permissions:
+  contents: write
+
+jobs:
+  harvest-and-sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout PNM repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Setup Node.js 22.x
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22.x'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run PNM Harvester
+        run: |
+          MODE="${{ github.event.inputs.mode || 'incremental' }}"
+          MAX_PAGES="${{ github.event.inputs.max_pages || '50' }}"
+          DELAY="${{ github.event.inputs.delay_ms || '2000' }}"
+          DATE_FROM="${{ github.event.inputs.date_from }}"
+
+          CMD="node tools/harvesters/pnm/harvester.js --mode $MODE --max-pages $MAX_PAGES --delay $DELAY"
+
+          if [ -n "$DATE_FROM" ]; then
+            CMD="$CMD --date-from $DATE_FROM"
+          fi
+
+          echo "Executing: $CMD"
+          eval $CMD
+
+      - name: Check for catalog updates
+        id: git-check
+        run: |
+          if [ -n "$(git status --porcelain data/)" ]; then
+            echo "changes=true" >> $GITHUB_OUTPUT
+            echo "Detected updates in data/ directory."
+          else
+            echo "changes=false" >> $GITHUB_OUTPUT
+            echo "No new or updated records in catalog."
+          fi
+
+      - name: Commit and push changes
+        if: steps.git-check.outputs.changes == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/
+          git commit -m "chore(catalog): automated PNM harvest update [skip ci]"
+          git push origin main
+
+      - name: Dispatch build event to Master Hub
+        if: steps.git-check.outputs.changes == 'true' && env.PAT_TOKEN != ''
+        env:
+          PAT_TOKEN: ${{ secrets.ORGANIZATION_PAT }}
+        run: |
+          curl -X POST \
+            -H "Accept: application/vnd.github.v3+json" \
+            -H "Authorization: Bearer $PAT_TOKEN" \
+            https://api.github.com/repos/pustaka-terbuka/master/dispatches \
+            -d '{"event_type":"pnm-catalog-updated","client_payload":{"source":"pnm"}}'

@@ -1,8 +1,24 @@
 # Pustaka Terbuka — PNM Data Provider
 
-> **Official Perpustakaan Negara Malaysia (PNM) Bibliographic Dataset and Harvester for [Pustaka Terbuka](https://github.com/pustaka-terbuka).**
+> **PustakaTerbuka: an open, shared MARC catalog for Malaysian schools and libraries.**  
+> *Official Perpustakaan Negara Malaysia (PNM) Bibliographic Dataset and Harvester for [Pustaka Terbuka](https://github.com/pustaka-terbuka).*
 
 This repository contains the complete open MARCXML bibliographic catalog harvested from **Perpustakaan Negara Malaysia (PNM)**, sharded for Git distribution and consumption by the Pustaka Terbuka Union Catalog ([`pustaka-terbuka/master`](https://github.com/pustaka-terbuka/master)).
+
+---
+
+## Architecture
+
+The PNM repository functions as the upstream national library authority data provider within the Pustaka Terbuka federated catalog architecture. Ingested records flow to the Master Hub:
+- **Central OPAC & Search Portal:** [github.com/pustaka-terbuka/master](https://github.com/pustaka-terbuka/master)
+- To view an organization's collection on the master portal: `https://pustaka-terbuka.github.io/master/?org=PNM`
+
+## Quick Start for Librarians
+
+Librarians can use this dataset for copy cataloging and finding PNM records:
+- Individual MARCXML records can be retrieved at `data/bib/{shard}/{recordId}.xml`.
+- Physical call numbers and holdings are tracked in `data/holdings.csv`.
+
 
 ---
 

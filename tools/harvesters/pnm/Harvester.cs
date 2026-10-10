@@ -20,7 +20,7 @@ namespace PNMHarvester
         const string BASE_API_URL = "https://ap.iiivega.com/api/search-result/search/format-groups";
         const string HARVESTER_NAME = "pnm-vega-scraper-csharp";
         const string HARVESTER_VERSION = "1.3.0";
-        const string USER_AGENT = "PustakaTerbuka Harvester (+https://github.com/aplikasi-perpustakaan/pustaka-terbuka)";
+        const string USER_AGENT = "PustakaTerbuka Harvester (+https://github.com/pustaka-terbuka/pnm)";
 
         static int Main(string[] args)
         {
@@ -705,7 +705,7 @@ namespace PNMHarvester
                 Console.WriteLine(" Running PustakaTerbuka Pipeline Automatically ");
                 Console.WriteLine("================================================");
 
-                Console.WriteLine("\n[Step 1/3] Validating inbox...");
+                Console.WriteLine("\n[Step 1/2] Validating inbox...");
                 int exitCode = RunCommand("npm run validate-inbox -- \"" + inboxDir + "\"", repoRoot);
                 if (exitCode != 0)
                 {
@@ -713,7 +713,7 @@ namespace PNMHarvester
                     return exitCode;
                 }
 
-                Console.WriteLine("\n[Step 2/3] Merging & deduplicating records into catalog...");
+                Console.WriteLine("\n[Step 2/2] Merging & deduplicating records into PNM catalog...");
                 exitCode = RunCommand("npm run merge -- \"" + inboxDir + "\"", repoRoot);
                 if (exitCode != 0)
                 {
@@ -721,17 +721,10 @@ namespace PNMHarvester
                     return exitCode;
                 }
 
-                Console.WriteLine("\n[Step 3/3] Building static OPAC and search index...");
-                exitCode = RunCommand("npm run build", repoRoot);
-                if (exitCode != 0)
-                {
-                    Console.WriteLine("\n[ERROR] Pipeline stopped: build failed with exit code " + exitCode);
-                    return exitCode;
-                }
-
                 Console.WriteLine();
                 Console.WriteLine("================================================");
-                Console.WriteLine(" Pipeline Completed: Catalog Updated & Built! ");
+                Console.WriteLine(" Pipeline Completed: PNM Catalog Updated Successfully! ");
+                Console.WriteLine(" Ready for PustakaTerbuka Master ingestion & build. ");
                 Console.WriteLine("================================================");
             }
 
