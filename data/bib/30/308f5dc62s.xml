@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<marc:collection xmlns:marc="http://www.loc.gov/MARC21/slim">
+  <marc:record>
+    <marc:leader>00000nam a2200000Ia 4500</marc:leader>
+    <marc:controlfield tag="001">vtls000408696</marc:controlfield>
+    <marc:datafield tag="035" ind1=" " ind2=" ">
+      <marc:subfield code="a">(UNK)vtls000408696</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="041" ind1=" " ind2=" ">
+      <marc:subfield code="a">may</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="245" ind1="0" ind2="0">
+      <marc:subfield code="a">Azura 2003 telemovie</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="264" ind1=" " ind2="1">
+      <marc:subfield code="c">2003</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="520" ind1=" " ind2=" ">
+      <marc:subfield code="a">Konflik kehidupan seorang wanita bernama Azura, Apabila dia dihalau oleh mertuanya sewaktu suaminya, zakaria melanjutkan pelajaran di luar negeri. Azura lari membawa diri dan hatinya jauh ke Cameron Highlands dan dapat melupakan kesedihan dengan kehadiran cahayamatanya, Sara. Dia terus tabah dan gagah melangkah dan telah berjaya menghasilkan kerjayanya dengan ladang bunganya. Sara juga semakin menerajui zaman remajanya dan berjaya melanjutkan diri ke menara gading dalam bidang botanical. Dalam pada masa yang sama, Zakaria telah pulang ke Malaysia dan begitu sedih dengan berita yang diterimanya. Tetapi tidak diduga, Zakaria telah bertemu Sara tanpa mengetahui cerita sebenarnya apabila dia menjadi tenaga pengajar di universiti tempat Sara menimba ilmu. Pergolakan bermula di antara Sara dan ibunya Azura dalam mempertemukan Zakaria dengan ibunya. Apakah Zakaria diperkenalkan sebagai seorang sahabat, kekasih atau...???? Bagaimanakah pula reaksi Azura apabila ia bertemu semula Zakaria yang hanya dikenali olehnya sebagai Prof. Green? Adakah Azura dapat menerima hakikat ini? Bagaimana pula perasaan Zakaria untuk menerima sara sebagai anaknya? Teka-teki, konflik yang semakin menguji Azura dan Zakaria dan semuanya hanya akan terjawab dalam TELEMOVIE AZURA 2003!</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="655" ind1=" " ind2="7">
+      <marc:subfield code="a">Nonmusical Sound Recording</marc:subfield>
+      <marc:subfield code="2">local</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="852" ind1=" " ind2=" ">
+      <marc:subfield code="h">791.430899923 AZU</marc:subfield>
+    </marc:datafield>
+  </marc:record>
+</marc:collection>

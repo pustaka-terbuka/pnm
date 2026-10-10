@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<marc:collection xmlns:marc="http://www.loc.gov/MARC21/slim">
+  <marc:record>
+    <marc:leader>00000nam a2200000Ia 4500</marc:leader>
+    <marc:controlfield tag="001">vtls000405685</marc:controlfield>
+    <marc:datafield tag="035" ind1=" " ind2=" ">
+      <marc:subfield code="a">(UNK)vtls000405685</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="041" ind1=" " ind2=" ">
+      <marc:subfield code="a">may</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="245" ind1="0" ind2="0">
+      <marc:subfield code="a">Gerhana bulan sains tahun 6 = Eclipse of the moon : science year 6</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="264" ind1=" " ind2="1">
+      <marc:subfield code="c">2003</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="520" ind1=" " ind2=" ">
+      <marc:subfield code="a">Sinopsis: Pendekatan pengajaran tajuk ini berlandaskan model kontruktivisme lima fasa oleh NEEdham. Bermula dengan fasa orientasi, proses pengajaran dikembangkan kepada fasa-fasa pencetusan idea, penstrukturan semula idea, aplikasi idea dan berakhir dengan refleksi. Bahan Bantu Pengajaran Murid adalah untuk mempelbagaikan aktiviti supaya selaras dengan gaya pembelajaran dan aras kecerdasan murid. Prasyarat yang harus dikuasai murid-murid sebelum mengikuti pembelajaran ini ialah pengetahuan tentang fasa-fasa bulan. Selain itu, aktiviti yang dirancangkan dalam pengajaran dan pembelajaran ini juga melibatkan kemahiran proses sains dan kemahiran berfikir yang meliputi proses memerhati, membuat inferens, meramal, dan manafsir maklumat. Unsur Kajian Masa Depan (KMD) yang difokuskan ialah senario dan meramal. Rancangan pelajaran ini juga menyediakan peluang bagi penerapan nilai-nilai murni dan pendidikan alam sekitar yang relevan dengan fenomena gerhana bulan dalam kehidupan murid-murid.</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="655" ind1=" " ind2="7">
+      <marc:subfield code="a">Electronic Resources</marc:subfield>
+      <marc:subfield code="2">local</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="852" ind1=" " ind2=" ">
+      <marc:subfield code="h">523.38 GER</marc:subfield>
+      <marc:subfield code="b">PERPUSTAKAAN NEGARA MALAYSIA</marc:subfield>
+    </marc:datafield>
+  </marc:record>
+</marc:collection>

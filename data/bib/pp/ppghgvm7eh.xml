@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<marc:collection xmlns:marc="http://www.loc.gov/MARC21/slim">
+  <marc:record>
+    <marc:leader>00000nam a2200000Ia 4500</marc:leader>
+    <marc:controlfield tag="001">vtls000607597</marc:controlfield>
+    <marc:datafield tag="020" ind1=" " ind2=" ">
+      <marc:subfield code="a">9780755330027</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="020" ind1=" " ind2=" ">
+      <marc:subfield code="a">755330021</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="035" ind1=" " ind2=" ">
+      <marc:subfield code="a">(UNK)vtls000607597</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="041" ind1=" " ind2=" ">
+      <marc:subfield code="a">eng</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="100" ind1="1" ind2=" ">
+      <marc:subfield code="a">Kidd, Sue Monk.</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="245" ind1="0" ind2="0">
+      <marc:subfield code="a">The secret life of bees</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="264" ind1=" " ind2="1">
+      <marc:subfield code="c">2003</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="520" ind1=" " ind2=" ">
+      <marc:subfield code="a">&quot;Living on a peach farm in South Carolina with her harsh, unyielding father, Lily Owens has shaped her entire life around one devastating, blurred memory - the afternoon her mother was killed, when Lily was four. Since then, her only real companion has been the fierce-hearted, and sometimes just fierce, black woman Rosaleen, who acts as her &quot;stand-in mother.&quot;&quot; &quot;When Rosaleen insults three of the deepest racists in town, Lily knows it&apos;s time to spring them both free. They take off in the only direction Lily can think of, toward a town called Tiburon, South Carolina - a name she found on the back of a picture amid the few possessions left by her mother.&quot;. &quot;There they are taken in by an eccentric trio of black beekeeping sisters named May, June, and August. Lily thinks of them as the calendar sisters and enters their mesmerizing secret world of bees and honey, and of the Black Madonna who presides over this household of strong, wise women. Maternal loss and betrayal, guilt and forgiveness entwine in a story that leads Lily to the single thing her heart longs for most.&quot;--BOOK JACKET</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="655" ind1=" " ind2="7">
+      <marc:subfield code="a">Book</marc:subfield>
+      <marc:subfield code="2">local</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="852" ind1=" " ind2=" ">
+      <marc:subfield code="h">KID</marc:subfield>
+      <marc:subfield code="b">PERPUSTAKAAN NEGARA MALAYSIA</marc:subfield>
+    </marc:datafield>
+  </marc:record>
+</marc:collection>

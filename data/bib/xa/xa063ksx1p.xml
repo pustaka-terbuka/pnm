@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<marc:collection xmlns:marc="http://www.loc.gov/MARC21/slim">
+  <marc:record>
+    <marc:leader>00000nam a2200000Ia 4500</marc:leader>
+    <marc:controlfield tag="001">vtls000844336</marc:controlfield>
+    <marc:datafield tag="035" ind1=" " ind2=" ">
+      <marc:subfield code="a">(UNK)vtls000844336</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="041" ind1=" " ind2=" ">
+      <marc:subfield code="a">hin</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="245" ind1="0" ind2="0">
+      <marc:subfield code="a">Yeh Dil AashiQanaa</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="264" ind1=" " ind2="1">
+      <marc:subfield code="c">2002</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="520" ind1=" " ind2=" ">
+      <marc:subfield code="a">Yeh Dil Ashiqana is the story of Karan and Pooja who are studying in the same college in Poona. They meet and fall in love and their romance progresses without any problems until one day while going to her brother&apos;s house in Mumbai. Pooja&apos;s flight is hijacked by a group of terrorists following the arrest of their leader Ashraf-UL-haq malik. Ironically this hijack has been engineered by Pooja&apos;s brother Vijay Varma who is league with the terrorist head Akhmash Jalal. Vijay is unaware of the fact that his beloved sister Pooja is on board the same flight. When he realizes this, he is unable to do anything as Akhmash forbids him from doing anything that would jeopardies their mission. Karan daringly risks his life and rescues Pooja and the other passengers thus making Akhmash and vijay his enemies. Akhmash is now out to kill Karan. Vijay refuses the marriage of Pooja and Karan. Pooja runs away with Karan; but they are followed and caught by Akhmash and his men and they are held captive in ...</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="655" ind1=" " ind2="7">
+      <marc:subfield code="a">DVD</marc:subfield>
+      <marc:subfield code="2">local</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="852" ind1=" " ind2=" ">
+      <marc:subfield code="h">791.4372 YEH</marc:subfield>
+      <marc:subfield code="b">PERPUSTAKAAN NEGARA MALAYSIA</marc:subfield>
+    </marc:datafield>
+  </marc:record>
+</marc:collection>

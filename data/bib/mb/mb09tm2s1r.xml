@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<marc:collection xmlns:marc="http://www.loc.gov/MARC21/slim">
+  <marc:record>
+    <marc:leader>00000nam a2200000Ia 4500</marc:leader>
+    <marc:controlfield tag="001">vtls000407353</marc:controlfield>
+    <marc:datafield tag="035" ind1=" " ind2=" ">
+      <marc:subfield code="a">(UNK)vtls000407353</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="041" ind1=" " ind2=" ">
+      <marc:subfield code="a">may</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="100" ind1="1" ind2=" ">
+      <marc:subfield code="a">Mohd Noor Kadir</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="245" ind1="0" ind2="0">
+      <marc:subfield code="a">Mr.Cinderella 2 humor,romantik dan dramatik</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="264" ind1=" " ind2="1">
+      <marc:subfield code="c">2003</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="520" ind1=" " ind2=" ">
+      <marc:subfield code="a">KIsah bersambung dari Mr. Cinderella di mana Hakimi. setelah ditunangkan dengan Puteri Megawati, telh diangkat menjadi Ketua Pegawai Eksekutif (CEO) untuk menerajui MEGAPURI BERHAD, mengambil kesempatan tersebut untuk membuktikan kemampuannya yang tersendiri tanpa bersandar pada Puteri. Apabila diketemukan dengan Datuk Johan dan anak gadisnya Anis, yang juga Presiden AGRA PRODUCTS yang berpengkalan di New Zealand, Hakimi menggunakan peluang tersebut untuk menjalinkan satu kerjasama pintar antara mereka tanpa menyedari agenda tersembunyi Anis yang sebenar adalah untuk mendekati diri Hakimi yang sudah terpahat dihatinya. Sikap Hakimi yang sambil lewa terhadap sesuatu perkara banyak mengecewakan Puteri. Apabila Hakimi &quot;main-main&quot; meletakkan jawatannya, perbuatan tersebut telah mengundang ketidakselesaan Puteri yang mengacah untuk memutuskan tali pertunangan antara mereka tanpa menyedari Sultan.....</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="655" ind1=" " ind2="7">
+      <marc:subfield code="a">Videorecording</marc:subfield>
+      <marc:subfield code="2">local</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="852" ind1=" " ind2=" ">
+      <marc:subfield code="h">791.436170899923 MNK</marc:subfield>
+      <marc:subfield code="b">PERPUSTAKAAN NEGARA MALAYSIA</marc:subfield>
+    </marc:datafield>
+  </marc:record>
+</marc:collection>

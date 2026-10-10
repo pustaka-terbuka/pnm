@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<marc:collection xmlns:marc="http://www.loc.gov/MARC21/slim">
+  <marc:record>
+    <marc:leader>00000nam a2200000Ia 4500</marc:leader>
+    <marc:controlfield tag="001">vtls000443686</marc:controlfield>
+    <marc:datafield tag="035" ind1=" " ind2=" ">
+      <marc:subfield code="a">vtls000084363</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="035" ind1=" " ind2=" ">
+      <marc:subfield code="a">(UNK)vtls000443686</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="041" ind1=" " ind2=" ">
+      <marc:subfield code="a">may</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="245" ind1="0" ind2="0">
+      <marc:subfield code="a">Sedarah</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="264" ind1=" " ind2="1">
+      <marc:subfield code="c">2002</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="520" ind1=" " ind2=" ">
+      <marc:subfield code="a">Kisah lelaki bernama Hassan  telah ditawarkan untuk bekerja sebagai pelaut di atas sebuah kapal bernama &apos;Juwita&apos;. Dengan berat hati, Hassan terpaksa meninggalkan isterinya Rubiah yang sedang hamil. Semasa ketiadaannya, satu kejadian malang telah menimpa isterinya di mana rumah mereka telah terbakar. Apabila Hassan pulang, dia telah diberitahu bahawa isterinya turut terkorban dalam kejadian itu. Dengan perasaan sedih dan kecewa, Hassan pun kembali untuk berlayar dari Singapura. Sementara itu, Rubiah yang disangkakan sudah meninggal dunia, sebenarnya telah berjaya menyelamatkan diri dan meninggalkan kampung untuk mencari Hassan. Rubiah ditemui tidak sedarkan diri oleh seorang lelaki yang membawanya ke Pulau Pinang. Di sana, Rubiah melahirkan seorang anak lelaki yang diberi nama Harun. Setelah sekian lama, Hassan pun memulakan hidup baru dan berkahwin dengan seorang gadis di Jakarta. Mereka berpindah ke Singapura di mana isterinya melahirkan seorang anak lelaki yang bernama Hashim. Hassan kini mempunyai jawatan yang tinggi di syarikat perkapalan tempatnya bekerja. Apabila dewasa, Hashim mengambil alih tugas Hassan. Sementara itu, Rubiah dan anaknya Harun terus hidup dalam kemiskinan. Oleh kerana itu, Harun mengambil keputusan untuk pergi ke Singapura bagi menjadi kelasi kapal. Ibunya Rubiah tidak dapat menahan kesedihan sambil mengingatkan tentang suaminya yang telah lama hilang dan berharap Harun dapat pulang semula, tidak seperti ayahnya. Di Singapura, Hassan dan Hashim telah menerima Harun untuk bekerja di atas kapal &apos;Juwita&apos; tanpa mengetahui bahawa Harun mempunyai pertalian darah dengan mereka...</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="655" ind1=" " ind2="7">
+      <marc:subfield code="a">Streaming Video</marc:subfield>
+      <marc:subfield code="2">local</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="852" ind1=" " ind2=" ">
+      <marc:subfield code="h">791.430899923 SED</marc:subfield>
+      <marc:subfield code="b">PERPUSTAKAAN NEGARA MALAYSIA</marc:subfield>
+    </marc:datafield>
+  </marc:record>
+</marc:collection>
