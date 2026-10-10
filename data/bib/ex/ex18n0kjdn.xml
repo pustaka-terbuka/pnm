@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<marc:collection xmlns:marc="http://www.loc.gov/MARC21/slim">
+  <marc:record>
+    <marc:leader>00000nam a2200000Ia 4500</marc:leader>
+    <marc:controlfield tag="001">vtls000818473</marc:controlfield>
+    <marc:datafield tag="020" ind1=" " ind2=" ">
+      <marc:subfield code="a">7119034677</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="020" ind1=" " ind2=" ">
+      <marc:subfield code="a">9787119034676</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="035" ind1=" " ind2=" ">
+      <marc:subfield code="a">(UNK)vtls000818473</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="041" ind1=" " ind2=" ">
+      <marc:subfield code="a">eng</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="100" ind1="1" ind2=" ">
+      <marc:subfield code="a">Porter, Edgar A.</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="245" ind1="0" ind2="0">
+      <marc:subfield code="a">THE PEOPLE&apos;S DOCTOR : GEORGE HATEM and CHINA&apos;S REVOLUTION</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="264" ind1=" " ind2="1">
+      <marc:subfield code="c">2003</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="490" ind1="0" ind2=" ">
+      <marc:subfield code="a">Light on China</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="520" ind1=" " ind2=" ">
+      <marc:subfield code="a">The young George Hatem journeyed to Shanghai in 1933 to practice medicine and see the sights. The deplorable health and social conditions he found there caused his sympathies to veer quickly to the revolutionary efforts of the Chinese Communist Party, and before long he joined underground Party members in conspiratorial meetings and activities. In 1936 he left Shanghai on a secret mission to China&apos;s Red Army, which was then settling in Shaanxi Province after completing the Long March. For the next fourteen years, Hatem served the Communist troops as physician and advisor. He took the name Ma Haide and became the first foreigner admitted into China&apos;s Communist Party. After the Communist victory in 1949, he became the first foreigner granted citizenship in the People&apos;s Republic. Over the next forty years, his reputation grew as one of the leading public health physicians in the world. Along the way he played Ping-Pong with Mao, tended to Zhou Enlai&apos;s broken arm, cared for Dr.
+Sun Yat-sen&apos;s widow on her deathbed, and spearheaded China&apos;s effort to eradicate leprosy and venereal disease. Until his death in 1988, he showed absolute allegiance to the Party. Few foreigners have been accepted into Chinese society as readily and appreciatively as he and certainly none have had such intimate access to twentieth-century China&apos;s most powerful figures</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="655" ind1=" " ind2="7">
+      <marc:subfield code="a">Book</marc:subfield>
+      <marc:subfield code="2">local</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="852" ind1=" " ind2=" ">
+      <marc:subfield code="h">951.05092 POR</marc:subfield>
+      <marc:subfield code="b">PERPUSTAKAAN NEGARA MALAYSIA</marc:subfield>
+    </marc:datafield>
+  </marc:record>
+</marc:collection>

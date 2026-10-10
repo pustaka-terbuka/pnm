@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<marc:collection xmlns:marc="http://www.loc.gov/MARC21/slim">
+  <marc:record>
+    <marc:leader>00000nam a2200000Ia 4500</marc:leader>
+    <marc:controlfield tag="001">vtls000510653</marc:controlfield>
+    <marc:datafield tag="035" ind1=" " ind2=" ">
+      <marc:subfield code="a">(UNK)vtls000510653</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="041" ind1=" " ind2=" ">
+      <marc:subfield code="a">chi</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="245" ind1="0" ind2="0">
+      <marc:subfield code="a">新警察故事 New police story | Xin jing cha gu shi New police story</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="264" ind1=" " ind2="1">
+      <marc:subfield code="c">2004</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="520" ind1=" " ind2=" ">
+      <marc:subfield code="a">&quot;榮是警隊中的傳奇,幾乎包辦警區內所有大案,破案率達百份百。祖爲首的犯罪五人組,在攻陷銀行保險庫後, 竟然主動按響警鐘,公然挑戰警方。榮要三小時内還以顔色, 帶領九人精英隊直闖賊 巢,整隊人被逐一獵殺,包括女友可頤的親弟 Rocky 也未能倖免。榮雖死裡逃生,慚愧内疚令他和可頤日漸疏遠, 最後分手。大話王鋒,出身市井,卻渴望當上正義的化身, 估不到遇上警隊偶像竟終日酗酒, 遂從垃圾堆中把他抬回家。為令榮再度振作, 也為滿足自己當警察的心願,鋒決冒稱成上司委派給榮的新拍檔, 迫他復職追查「超級罪犯」一案 ...&quot;</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="655" ind1=" " ind2="7">
+      <marc:subfield code="a">DVD</marc:subfield>
+      <marc:subfield code="2">local</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="852" ind1=" " ind2=" ">
+      <marc:subfield code="h">791.4372 XIN</marc:subfield>
+      <marc:subfield code="b">PERPUSTAKAAN NEGARA MALAYSIA</marc:subfield>
+    </marc:datafield>
+  </marc:record>
+</marc:collection>

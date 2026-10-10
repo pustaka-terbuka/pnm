@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<marc:collection xmlns:marc="http://www.loc.gov/MARC21/slim">
+  <marc:record>
+    <marc:leader>00000nam a2200000Ia 4500</marc:leader>
+    <marc:controlfield tag="001">vtls001028610</marc:controlfield>
+    <marc:datafield tag="035" ind1=" " ind2=" ">
+      <marc:subfield code="a">304453</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="035" ind1=" " ind2=" ">
+      <marc:subfield code="a">(UNK)vtls001028610</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="041" ind1=" " ind2=" ">
+      <marc:subfield code="a">may</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="245" ind1="0" ind2="0">
+      <marc:subfield code="a">LAIN daRI yaNg LAIN. EPISOD 6. SIRI 8.</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="264" ind1=" " ind2="1">
+      <marc:subfield code="c">2004</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="520" ind1=" " ind2=" ">
+      <marc:subfield code="a">Contains 3 segments: SEGMENT 1 This week&apos;s showcase revolves around the trend of using sand to create sculptures of monuments, statues, and legendary landmarks, held for the very first time in Malaysia. This sculptural art was previously held in European countries and America about 100 years ago. SEGMENT 2 Every birth marks the growth of a lineage; this showcase relates to a family with many children as well as twins. Next, it revolves around the story of a man who is now over a century old. There is a secret behind each of these stories. SEGMENT 3 The various uses of coconut shells to produce decorative items for beautifying a home. This is done by a resident in Chalok Barat, Setiu, Terengganu, to further enhance the landscape of their residence.</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="655" ind1=" " ind2="7">
+      <marc:subfield code="a">DVD</marc:subfield>
+      <marc:subfield code="2">local</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="852" ind1=" " ind2=" ">
+      <marc:subfield code="h">791.4509595 LAI</marc:subfield>
+    </marc:datafield>
+  </marc:record>
+</marc:collection>

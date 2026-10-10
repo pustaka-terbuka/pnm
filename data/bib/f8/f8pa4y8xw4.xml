@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<marc:collection xmlns:marc="http://www.loc.gov/MARC21/slim">
+  <marc:record>
+    <marc:leader>00000nam a2200000Ia 4500</marc:leader>
+    <marc:controlfield tag="001">vtls000844242</marc:controlfield>
+    <marc:datafield tag="035" ind1=" " ind2=" ">
+      <marc:subfield code="a">(UNK)vtls000844242</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="041" ind1=" " ind2=" ">
+      <marc:subfield code="a">eng</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="245" ind1="0" ind2="0">
+      <marc:subfield code="a">WALKING TALL</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="264" ind1=" " ind2="1">
+      <marc:subfield code="c">2004</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="520" ind1=" " ind2=" ">
+      <marc:subfield code="a">After eight years serving the U.S. Army Special Forces, Sergeant Chris Vaughn returns to his hometown seeking for a job in the local mill. He is informed by Sheriff Stan Watkins that the mill was closed three years ago and now the Wild Cherry Casino, owned by his former high school friend Jay Hamilton, is the major source of jobs and income to the town. Chris goes home, and meets his best-friend Ray Templeton, who organized a football game with their friends. After the game, Jay invites Chris and his friends to spend the night in his casino on him, but when Chris finds that the casino crabs dealer is cheating with loaded dice, he fights against the security men and is almost killed by them. When his nephew Pete overdosed on crystal meth sold by the security men at the casino, Chris realizes that the town is dominated by the mobsters and the corrupt sheriff and with a huge piece of wood, he breaks the casino and the criminals. He is prosecuted and in the trial, he promises to the jury ...</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="655" ind1=" " ind2="7">
+      <marc:subfield code="a">DVD</marc:subfield>
+      <marc:subfield code="2">local</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="852" ind1=" " ind2=" ">
+      <marc:subfield code="h">791.4372 WAL</marc:subfield>
+      <marc:subfield code="b">PERPUSTAKAAN NEGARA MALAYSIA</marc:subfield>
+    </marc:datafield>
+  </marc:record>
+</marc:collection>

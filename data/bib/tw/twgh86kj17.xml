@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<marc:collection xmlns:marc="http://www.loc.gov/MARC21/slim">
+  <marc:record>
+    <marc:leader>00000nam a2200000Ia 4500</marc:leader>
+    <marc:controlfield tag="001">vtls001028613</marc:controlfield>
+    <marc:datafield tag="035" ind1=" " ind2=" ">
+      <marc:subfield code="a">304453</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="035" ind1=" " ind2=" ">
+      <marc:subfield code="a">(UNK)vtls001028613</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="041" ind1=" " ind2=" ">
+      <marc:subfield code="a">may</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="245" ind1="0" ind2="0">
+      <marc:subfield code="a">LAIN daRI yaNg LAIN. EPISOD 7. SIRI 8.</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="264" ind1=" " ind2="1">
+      <marc:subfield code="c">2004</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="520" ind1=" " ind2=" ">
+      <marc:subfield code="a">Contains 3 segments: SEGMENT 1 This week&apos;s showcase reveals various methods used to attract attention through food and restaurant decoration, becoming a focal point for city dwellers enjoying various types of cuisine. A maritime-themed restaurant located in Kampung Baru attracts the public to dine on the diverse menus provided. SEGMENT 2 Checking out a mini zoo that houses various species of birds and exotic animals provides a brand new experience. This animal conservation center has been designed to offer an interactive experience between visitors and the animals, which will be shown to you shortly. SEGMENT 3 A creative idea using discarded VCDs as a safety measure for children playing outside the house, which has become a new way to catch the public&apos;s attention to be careful when entering the village area.</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="655" ind1=" " ind2="7">
+      <marc:subfield code="a">DVD</marc:subfield>
+      <marc:subfield code="2">local</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="852" ind1=" " ind2=" ">
+      <marc:subfield code="h">791.4509595 LAI</marc:subfield>
+    </marc:datafield>
+  </marc:record>
+</marc:collection>

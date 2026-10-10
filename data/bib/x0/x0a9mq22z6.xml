@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<marc:collection xmlns:marc="http://www.loc.gov/MARC21/slim">
+  <marc:record>
+    <marc:leader>00000nam a2200000Ia 4500</marc:leader>
+    <marc:controlfield tag="001">vtls000407911</marc:controlfield>
+    <marc:datafield tag="035" ind1=" " ind2=" ">
+      <marc:subfield code="a">(UNK)vtls000407911</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="041" ind1=" " ind2=" ">
+      <marc:subfield code="a">may</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="245" ind1="0" ind2="0">
+      <marc:subfield code="a">Chinta</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="264" ind1=" " ind2="1">
+      <marc:subfield code="c">2004</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="520" ind1=" " ind2=" ">
+      <marc:subfield code="a">Pemberontakan terjadi di sebuah negeri menyebabkan hampir seluruh penduduk di sebuah bandar terbunuh. Antara yang terselamat ialah seorang hamba yang setia dan seorang tuan puteri kecil yang diselamatkannya. Mereka berdua berjaya melarikan diri ke sebuah kampung nelayan. Di kampung itu, dia memelihara tuan puteri itu sebagai anak perempuannya sendiri. Beberapa tahun selepas itu, raja yang memberontak di negeri tersebut telah mangkat. Puteranya telah menggantikan tempat baginda. Ketika raja baru itu melawat ke kampung nelayan itu, dia bersua dengan tuan puteri yang sudah dewasa. Raja dan tuan puteri telah jatuh cinta antara satu sama lain. Mereka begitu gembira apabila mengetahui asal usul masing-masing dan menyelesaikan segala perselisihan yang berlaku dahulu.</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="655" ind1=" " ind2="7">
+      <marc:subfield code="a">Nonmusical Sound Recording</marc:subfield>
+      <marc:subfield code="2">local</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="852" ind1=" " ind2=" ">
+      <marc:subfield code="h">791.430899923 CHI</marc:subfield>
+      <marc:subfield code="b">PERPUSTAKAAN NEGARA MALAYSIA</marc:subfield>
+    </marc:datafield>
+  </marc:record>
+</marc:collection>

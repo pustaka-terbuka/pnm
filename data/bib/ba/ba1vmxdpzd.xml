@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<marc:collection xmlns:marc="http://www.loc.gov/MARC21/slim">
+  <marc:record>
+    <marc:leader>00000nam a2200000Ia 4500</marc:leader>
+    <marc:controlfield tag="001">vtls000408682</marc:controlfield>
+    <marc:datafield tag="035" ind1=" " ind2=" ">
+      <marc:subfield code="a">(UNK)vtls000408682</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="041" ind1=" " ind2=" ">
+      <marc:subfield code="a">may</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="245" ind1="0" ind2="0">
+      <marc:subfield code="a">Aku no. 1</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="264" ind1=" " ind2="1">
+      <marc:subfield code="c">2004</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="520" ind1=" " ind2=" ">
+      <marc:subfield code="a">Azwan dan Aznill adalah dua pengacara paling TOP di station METRO TV yang perasan diri mereka No. 1. Azwan dan Aznil amat cemburukan kejayaan masing-masing lalu cuba sedaya upaya untuk mengatasi kebolehan diri serta populariti masing-masing. Bard, pengacara yang kurang popularitinya dan beberapa artis kaki jarum berasa dengki dengan kejayaan azwan dan Aznil lalu mengambil peluang untuk menghasut Azwan dan Aznil sehingga tercetusnya pertelingkahan di antara mereka berdua. Azwan dan Aznil semakin menjadi-jadi apabila Malam Anugerah Artis Popular semakin hampir dan mereka berdua telah dicalonkan  untuk kategori Pengacara No. 1. Puan June, Lady Boss Station METRO TV mempunyai seorang anak dara yang bekerja sebagai setiausahanya iaitu Jesnita. Azwan dan Aznil menggilai Jesnita dan cuba berbagai-bagai taktik untuk memikat hati Jesnita. Akhirnya Malam Anugerah Artis Popular telahpun tiba. Siapakah di antara mereka yang akan meragut trofi Anugerah Pengacara No.1 Malaysia...Azwan atau Aznil?</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="655" ind1=" " ind2="7">
+      <marc:subfield code="a">Projected Medium</marc:subfield>
+      <marc:subfield code="2">local</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="852" ind1=" " ind2=" ">
+      <marc:subfield code="h">791.436170899923 AKU</marc:subfield>
+      <marc:subfield code="b">PERPUSTAKAAN NEGARA MALAYSIA</marc:subfield>
+    </marc:datafield>
+  </marc:record>
+</marc:collection>
