@@ -71,3 +71,12 @@ npm test
 
 * **`partition_state.json`**: Located in the active inbox directory. Tracks completed partition keys (`year_2024_a`, etc.), `nextBatchNumber`, and `totalRecordsSaved`.
 * **Self-Healing on Crash:** The engine inspects existing batch files on startup. Any file missing the closing `</collection>` tag is deleted, and its entries are scrubbed from `provenance.jsonl` before resumption begins.
+
+---
+
+## 5. Ecosystem Concurrency & Conflict Prevention
+
+* **Safe Multi-Provider Concurrency:** You may run this PNM crawler concurrently with scrapers for other libraries (`ppapp`, `ppas`, etc.). Separate repository roots and independent target hosts eliminate collision risks.
+* **Single Worker Rule:** Run strictly **one** crawler instance against the PNM endpoint. Do not run parallel workers against `ap.iiivega.com`.
+* **Politeness:** Maintains a minimum 2,000 ms sleep between requests to protect server stability.
+

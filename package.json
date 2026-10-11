@@ -10,7 +10,8 @@
     "validate-holdings": "node tools/validate-holdings.js",
     "harvest": "node tools/harvesters/pnm/harvester.js",
     "harvest:incremental": "node tools/harvesters/pnm/harvester.js --mode incremental",
-    "harvest:pnm": "node tools/harvesters/pnm/harvester.js"
+    "harvest:pnm": "node tools/harvesters/pnm/harvester.js",
+    "ingest:master": "node tools/ingest-to-master.js"
   },
   "engines": {
     "node": ">=20.0.0"

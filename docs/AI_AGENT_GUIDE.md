@@ -191,3 +191,16 @@ node --test tests/m5-build.test.js
 pwsh -ExecutionPolicy Bypass -File scripts/Publish-Catalog.ps1 -WhatIf -SkipHarvest
 ```
 Ensure all tests pass and that output size and file count budgets remain healthy.
+
+---
+
+## 7. Provider Identity & Multi-Organization Harvester Concurrency
+
+### 7.1 Provider Role
+This repository (`pustaka-terbuka/pnm`) is the authoritative **National Library of Malaysia (PNM)** data provider. In the union catalog priority hierarchy, PNM holds **Priority 10** (the highest bibliographic authority in Malaysia).
+
+### 7.2 Multi-Organization Concurrency Rules
+1. **Parallel Operation Across Providers:** The PNM harvester can safely run in parallel with other provider harvesters (e.g., PPAPP, PPAS) on the same developer machine. Because each provider uses a separate repository, separate filesystem inboxes, and queries independent external OPAC endpoints, **there is zero risk of data corruption or rate-limit crosstalk**.
+2. **Strict Single Worker per Institution:** **Never run multiple concurrent harvester instances against PNM's Vega Discover endpoint**. Spawning duplicate processes against `ap.iiivega.com` risks triggering IP bans, 429 rate throttling, and cursor collisions in `partition_state.json`.
+3. **Upstream Master Ingestion:** Data harvested, validated, and merged into this repository's `data/bib/` is ingested downstream by `pustaka-terbuka/master`. Never manually overwrite or manipulate `master` configuration from inside this repository.
+

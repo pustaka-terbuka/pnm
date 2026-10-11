@@ -57,6 +57,7 @@ function parseArgs(args) {
     dateFrom: null,
     dateTo: null,
     partitioned: false,
+    ingestMaster: false,
     help: false
   };
 
@@ -82,6 +83,8 @@ function parseArgs(args) {
       options.dateTo = parseInt(args[++i], 10);
     } else if (arg === '--partitioned') {
       options.partitioned = true;
+    } else if (arg === '--ingest-master') {
+      options.ingestMaster = true;
     } else if (arg === '--skip-pipeline' || arg === '--no-pipeline') {
       options.skipPipeline = true;
     } else if (arg === '--fresh' || arg === '--no-resume' || arg === '--new') {
@@ -844,6 +847,11 @@ export async function runHarvest(cliArgs = process.argv.slice(2)) {
         console.log(` Pipeline Completed: PNM Catalog Updated Successfully! `);
         console.log(` Ready for PustakaTerbuka Master ingestion & build. `);
         console.log(`================================================\n`);
+
+        if (options.ingestMaster) {
+          console.log(`\n[Step 3/3] Ingesting into PustakaTerbuka Master (Sequential Queue)...`);
+          execSync(`npm run ingest:master`, { cwd: repoRoot, stdio: 'inherit' });
+        }
       } catch (err) {
         console.error(`\n[ERROR] Pipeline step failed: ${err.message}`);
         return 1;
