@@ -11,6 +11,8 @@
     "harvest": "node tools/harvesters/pnm/harvester.js",
     "harvest:incremental": "node tools/harvesters/pnm/harvester.js --mode incremental",
     "harvest:pnm": "node tools/harvesters/pnm/harvester.js",
+    "harvest:master": "node tools/harvesters/pnm/harvester.js --master-digest",
+    "harvest:chunked": "node tools/harvesters/pnm/harvester.js --partitioned --chunk-size 10000 --master-digest",
     "ingest:master": "node tools/ingest-to-master.js"
   },
   "engines": {
