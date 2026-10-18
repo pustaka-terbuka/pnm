@@ -63,6 +63,12 @@
     <marc:datafield tag="035" ind1=" " ind2=" ">
       <marc:subfield code="a">(UNK)vtls000221564</marc:subfield>
     </marc:datafield>
+    <marc:datafield tag="035" ind1=" " ind2=" ">
+      <marc:subfield code="a">vtls000221560</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="035" ind1=" " ind2=" ">
+      <marc:subfield code="a">(UNK)vtls000711567</marc:subfield>
+    </marc:datafield>
     <marc:datafield tag="100" ind1="1" ind2=" ">
       <marc:subfield code="a">Bahasa Othman, 1951-</marc:subfield>
     </marc:datafield>

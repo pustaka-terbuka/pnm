@@ -27,6 +27,12 @@
     <marc:datafield tag="035" ind1=" " ind2=" ">
       <marc:subfield code="a">vtls000146048</marc:subfield>
     </marc:datafield>
+    <marc:datafield tag="035" ind1=" " ind2=" ">
+      <marc:subfield code="a">vtls000089026</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="035" ind1=" " ind2=" ">
+      <marc:subfield code="a">(UNK)vtls000408834</marc:subfield>
+    </marc:datafield>
     <marc:datafield tag="100" ind1="1" ind2=" ">
       <marc:subfield code="a">Surtahman Kastin Hasan, 1954-</marc:subfield>
     </marc:datafield>
