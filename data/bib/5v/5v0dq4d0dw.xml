@@ -18,6 +18,18 @@
     <marc:datafield tag="035" ind1=" " ind2=" ">
       <marc:subfield code="a">(UNK)vtls000071014</marc:subfield>
     </marc:datafield>
+    <marc:datafield tag="035" ind1=" " ind2=" ">
+      <marc:subfield code="a">vtls000309225</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="035" ind1=" " ind2=" ">
+      <marc:subfield code="a">vtls000071012</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="035" ind1=" " ind2=" ">
+      <marc:subfield code="a">9830554589</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="035" ind1=" " ind2=" ">
+      <marc:subfield code="a">(UNK)vtls000309183</marc:subfield>
+    </marc:datafield>
     <marc:datafield tag="041" ind1=" " ind2=" ">
       <marc:subfield code="a">eng</marc:subfield>
     </marc:datafield>

@@ -12,6 +12,12 @@
     <marc:datafield tag="035" ind1=" " ind2=" ">
       <marc:subfield code="a">(UNK)vtls000247461</marc:subfield>
     </marc:datafield>
+    <marc:datafield tag="035" ind1=" " ind2=" ">
+      <marc:subfield code="a">vtls000037285</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="035" ind1=" " ind2=" ">
+      <marc:subfield code="a">9830990052</marc:subfield>
+    </marc:datafield>
     <marc:datafield tag="041" ind1=" " ind2=" ">
       <marc:subfield code="a">chi</marc:subfield>
     </marc:datafield>

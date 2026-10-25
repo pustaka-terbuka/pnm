@@ -69,6 +69,12 @@
     <marc:datafield tag="035" ind1=" " ind2=" ">
       <marc:subfield code="a">(UNK)vtls000528335</marc:subfield>
     </marc:datafield>
+    <marc:datafield tag="035" ind1=" " ind2=" ">
+      <marc:subfield code="a">vtls000129080</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="035" ind1=" " ind2=" ">
+      <marc:subfield code="a">(UNK)vtls000528327</marc:subfield>
+    </marc:datafield>
     <marc:datafield tag="041" ind1=" " ind2=" ">
       <marc:subfield code="a">eng</marc:subfield>
     </marc:datafield>
