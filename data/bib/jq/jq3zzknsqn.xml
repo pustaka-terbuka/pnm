@@ -39,6 +39,12 @@
     <marc:datafield tag="035" ind1=" " ind2=" ">
       <marc:subfield code="a">(UNK)vtls000546087</marc:subfield>
     </marc:datafield>
+    <marc:datafield tag="035" ind1=" " ind2=" ">
+      <marc:subfield code="a">vtls000146437</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="035" ind1=" " ind2=" ">
+      <marc:subfield code="a">(UNK)vtls000546086</marc:subfield>
+    </marc:datafield>
     <marc:datafield tag="100" ind1="1" ind2=" ">
       <marc:subfield code="a">W. S. Uzala, 1954-</marc:subfield>
     </marc:datafield>
